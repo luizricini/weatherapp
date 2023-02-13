@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-card);
+    border-radius: 8px;
+    color: #fff;
+    height: 8rem;
+}
+
+.card__title {
+    font-size: 20px;
+}
+
+.clima{
+    width: 60px;
+}
+
