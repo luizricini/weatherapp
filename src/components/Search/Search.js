@@ -67,6 +67,7 @@ function Search() {
             (searchInfos)?
                 <div className='containerWrapper'>
                     <h1>{infos?.name} - {infos?.country}</h1>
+                    <h3>{infos?.date}</h3>
                     <div className='grid'>
                         <Card title='Temperatura' body={infos?.temp} /> 
                         <Card title='Sensação Térmica' body={infos?.feels_like} /> 
